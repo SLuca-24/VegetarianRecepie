@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Header from  './page/header';
+import SignatureSection from  './page/signature-recepies';
 import reportWebVitals from './reportWebVitals';
+import TypeOfRecepies from "./page/type-of-recepies"
+import AppLunch from "./page/app-lunch"
+import Contact from "./page/contact"
+import AppBreakfast from './page/app-breackfast';
+import AppDinner from './page/app-dinner'
+import HowItWorks from './page/how-it-work'
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <HowItWorks />
+    <SignatureSection />
+    <TypeOfRecepies />
+    <AppBreakfast />
+    <AppLunch />
+    <AppDinner />
+    <Contact />
   </React.StrictMode>
 );
 

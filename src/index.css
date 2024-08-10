@@ -1,13 +1,500 @@
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Segoe UI', 'Roboto';
+  background-color: #E0F7E9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* header.js */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(78, 52, 46, 0.6);
+  border-radius: 100px;
+  margin: 30px 30px;
 }
+
+.mobile-menu, .hamburger{
+  display: none;
+}
+
+.logo {
+  border: transparent;
+  border-radius: 80px;
+  height: 90px;
+  transition: transform 0.5s;
+}
+
+.logo:hover{
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+
+.header-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo-name h1{
+color: rgb(78, 52, 46);
+color: #FFF9E6;
+transition: color 0.8s ease;
+}
+
+.header-logo-name h1:hover{
+  color: #b3afa3;
+  cursor: pointer;
+  }
+
+.header-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  position: right;
+}
+
+.header-social i {
+font-size: 30px;
+color: #4E342E;
+color: #FFF9E6;
+transition: transform 0.5s;
+}
+
+.header-social i:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+
+
+/*how it works*/
+
+.HowItWorks-div{
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  margin-top: 100px;
+  gap: 50px;
+  
+}
+
+.HowItWorks-text {
+color: #4E342E;
+}
+
+.HowItWorks-text h1 {
+  font-size: 50px;
+}
+
+.HowItWorks-text h2{
+font-size: 30px;
+}
+
+
+
+.HowItWorks-pic img {
+border-radius: 50px;
+height: 700px;
+transition: transform 1s;
+}
+
+.HowItWorks-pic img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+
+/*signature*/
+
+.signature-background {
+  margin-top: 250px;
+}
+
+.signature-title {
+  text-align: center;
+  font-size: 50px;
+  color:#4E342E;
+  padding-top: 40px;
+}
+
+.signature-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px;
+  padding-bottom: 150px;
+  gap: 50px;
+}
+
+
+.card {
+  border: #4E342E 2px solid;
+  border-radius: 15px;
+  background-color: #FFF9E6;
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card img {
+  border-radius: 15px;
+  width:100%;
+  height: 400px;
+
+}
+
+.card h2,
+.card h3,
+.card p {
+  color: #4E342E;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: color 0.8s ease;
+}
+
+.card i {
+  margin-right: 10px;
+}
+
+
+.card p {
+  padding-bottom: 50px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card h2:hover{
+  cursor: pointer;
+  color: #701703;
+}
+
+/*type of recepies*/
+
+.typeOfRecepies-div {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+
+.typeOfRecepies-card {
+ align-items: center;
+ transition: transform 0.5s;
+}
+
+.typeOfRecepies-card:hover{
+  transform: scale(1.09)
+}
+
+.typeOfRecepies-card img{
+  height: 120px;
+  width: 100%;
+  
+ }
+
+ .typeOfRecepies-card a{
+  text-decoration: none;
+  color: #4E342E;
+ }
+
+ #logocena {
+  transform: scale(1.7);
+ }
+#logopranzo{
+  transform: scale(1.2); 
+}
+
+/*random recepie*/
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 100px 100px;
+  margin-top: 250px;
+  padding: 50px;
+  border: solid;
+  border-radius: 50px;
+  background-color: #FFF9E6;
+  color: #333333;
+}
+.row h1 {
+  text-align: center;
+}
+
+
+.row button {
+  font-size: 25px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #E0F7E9, #76c090);
+  color: black;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  transition: background-image 0.3s ease;
+}
+
+.row button:hover {
+cursor: pointer;
+background: linear-gradient(to right, #E0F7E9, #E0F7E9);
+}
+
+
+.randomRecepieTitle {
+text-decoration: none;
+color: #333333;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+}
+
+
+.row div {
+  margin-top: 3vw;
+}
+
+.row img {
+  margin-top: 3vw;
+  border-radius: 25px;
+width: 50%;
+}
+
+.ingredients {
+  font-size: 20px;
+  font-weight: 400;
+  text-align:left;
+}
+
+/* Newsletter.css */
+.newsletter {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+.newsletter h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.newsletter p {
+  margin: 0 0 20px;
+  font-size: 16px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.newsletter button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 1122px) {
+
+
+  .HowItWorks-text{
+    text-align: center;
+  }
+
+  .signature-section {
+   display: flex;
+   flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-social {
+    display: none;
+
+  }
+
+
+
+.hamburger {
+  display: flex;
+  font-size: 60px;
+  cursor: pointer;
+  z-index: 1000;
+  color: black;
+}
+
+/* Stile per il menu nascosto */
+.mobile-menu {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Sfondo scuro trasparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.mobile-menu li {
+  cursor: pointer;
+}
+
+/* Stile per il menu quando visibile */
+.mobile-menu.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Stile per gli elementi del menu */
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu ul li {
+  margin: 20px 0;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.mobile-menu ul li a:hover {
+  color: #ddd; /* Cambia il colore al passaggio del mouse */
+}
+
+
+}
+
+
+
+@media (max-width: 555px) {
+
+  .HowItWorks-pic img {
+    height: 600px;
+   }
+
+}
+
+@media (max-width: 405px) {
+
+  .HowItWorks-pic img {
+    height: 400px;
+   }
+
+   .typeOfRecepies-div {
+    display: none;
+   }
+}
+
+
+/*media per foto how it works*/
+
+
+@media (max-width: 1850px) {
+
+  .HowItWorks-pic img {
+    height: 700px;
+   }
+}
+
+@media (max-width: 1500px) {
+
+  .HowItWorks-pic img {
+    height: 500px;
+   }
+}
+
+@media (max-width: 1260px) {
+  .HowItWorks-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .HowItWorks-pic img {
+    height: 400px;
+   }
+}
+
+@media (max-width: 545px) {
+
+  .HowItWorks-pic img {
+    height: 300px;
+   }
+}
+
+@media (max-width: 415px) {
+
+  .HowItWorks-pic img {
+    height: 270px;
+   }
+}
+
+/*stili per random card*/
+
+@media (max-width:825px) {
+  .row {
+    margin: 100px 30px;
+  }
+
+  .header-logo-name h1{
+    display: none;
+  }
+}
+
+
