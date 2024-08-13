@@ -47,7 +47,7 @@ function AppLunch() {
           {recipe?.title}
         </a>
       </div>
-      <img src={recipe?.image} className="randomRecepie-img"/>
+      <img src={recipe?.image}  alt="random-recepie-img"/>
 
       <div className="ingredients">
         <div>
@@ -56,7 +56,7 @@ function AppLunch() {
         {recipe?.extendedIngredients.map((ingredient, index) =>
           <span key={index}>
 
-            {index != recipe?.extendedIngredients.length - 1 ? ingredient.name + ", " : ingredient.name}
+            {index !== recipe?.extendedIngredients.length - 1 ? ingredient.name + ", " : ingredient.name}
           </span>
         )}
         {recipe?.analyzedInstructions.map((instruction) =>
