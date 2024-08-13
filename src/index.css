@@ -414,6 +414,14 @@ width: 50%;
   color: #ddd; /* Cambia il colore al passaggio del mouse */
 }
 
+.hamburger-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0px;
+}
 
 }
 

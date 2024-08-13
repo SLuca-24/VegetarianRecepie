@@ -23,21 +23,21 @@ function Header() {
         <div className="hamburger" onClick={toggleMenu}>☰</div>
         <nav className="mobile-menu">
         <ul>
-        <li><a onClick={toggleMenu}>Web page</a></li>
-        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><button onClick={toggleMenu} className="hamburger-button">Web page</button></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
         </nav>
         </div>
        
 
         <navbar className="header-social">
-        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
         </navbar>
         
 
