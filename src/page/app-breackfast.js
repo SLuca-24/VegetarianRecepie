@@ -43,7 +43,7 @@ function AppBreakfast() {
 
 
       <div className="randomRecepieTitle">
-        <a className="randomRecepieTitle" target="_blank" href={recipe?.sourceUrl}>
+        <a className="randomRecepieTitle" target="_blank"rel="noopener noreferrer"  href={recipe?.sourceUrl}>
           {recipe?.title}
         </a>
       </div>

@@ -24,20 +24,20 @@ function Header() {
         <nav className="mobile-menu">
         <ul>
         <li><a onClick={toggleMenu}>Web page</a></li>
-        <li><a href="link"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="link"><i class="fab fa-github"></i></a></li>
-        <li><a href="link"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="link"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
         </nav>
         </div>
        
 
         <navbar className="header-social">
-        <a href="link"><i class="fab fa-twitter"></i></a>
-        <a href="link"><i class="fab fa-github"></i></a>
-        <a href="link"><i class="fab fa-instagram"></i></a>
-        <a href="link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/"><i class="fab fa-linkedin-in"></i></a>
         </navbar>
         
 
