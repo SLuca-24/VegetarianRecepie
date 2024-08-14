@@ -32,3 +32,8 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// cose da fare nel sito:
+// aggiustare mobile layout
+//aggiustare grandezza in type-of-recepie, da mobile vedo che la colazione icon è piu grande delle altre due icon

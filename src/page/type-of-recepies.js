@@ -14,7 +14,7 @@ function TypeOfRecepies(props) {
 
             <div className="typeOfRecepies-card">
             <a href="link">
-            <img src={logoColazione} alt="img-icon" />        
+            <img src={logoColazione} alt="img-icon" id="logocolazione" />        
             </a>
             </div>
 
@@ -31,9 +31,6 @@ function TypeOfRecepies(props) {
             </div>
             
         </div>
-
-        
-     
     );
   }
   

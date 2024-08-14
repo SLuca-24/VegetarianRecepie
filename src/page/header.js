@@ -25,7 +25,7 @@ function Header() {
         <ul>
         <li><button onClick={toggleMenu} className="hamburger-button">Web page</button></li>
         <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
         <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
@@ -35,7 +35,7 @@ function Header() {
 
         <navbar className="header-social">
         <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
         <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
         <a href="https://www.instagram.com/lucasanniaa/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
         </navbar>

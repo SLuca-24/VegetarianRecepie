@@ -505,4 +505,14 @@ width: 50%;
   }
 }
 
+/*mobile layout*/
+
+@media (max-width: 595px){
+
+  body {
+    width: 150%;
+  }
+
+}
+
 
