@@ -416,7 +416,7 @@ width: 50%;
 .mobile-menu ul li a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 35px;
   transition: color 0.3s;
 }
 
@@ -428,7 +428,7 @@ width: 50%;
   background: none;
   border: none;
   color: white;
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
   padding: 0px;
 }
