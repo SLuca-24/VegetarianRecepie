@@ -411,6 +411,7 @@ width: 50%;
 
 .mobile-menu ul li {
   margin: 20px 0;
+  margin-bottom: 40px;
 }
 
 .mobile-menu ul li a {
