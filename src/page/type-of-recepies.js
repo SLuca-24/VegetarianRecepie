@@ -1,7 +1,7 @@
 import React from "react"
-import logoColazione from "../img/colazione-logo.png";
-import logoCena from "../img/salad-removebg-preview.png"
-import logoPranzo from "../img/pasta_logo-removebg-preview.png"
+import logoColazione from "../img/avocado-icon.png";
+import logoCena from "../img/salad-icon.png"
+import logoPranzo from "../img/pasta-icon.png"
 
 
 

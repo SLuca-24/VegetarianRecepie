@@ -212,11 +212,16 @@ cursor: pointer;
   color: #4E342E;
  }
 
- #logocena {
-  transform: scale(1.7);
+ #logocolazione {
+  transform: scale(1.3);
  }
+
 #logopranzo{
-  transform: scale(1.2); 
+  transform: scale(1.3); 
+}
+
+#logocena {
+  transform: scale(1.);
 }
 
 /*random recepie*/
