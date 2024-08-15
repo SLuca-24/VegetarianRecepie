@@ -365,7 +365,9 @@ width: 50%;
 
   }
 
-
+  .HowItWorks-div {
+    margin-top: 0px;
+    }
 
 .hamburger {
   display: flex;
@@ -544,6 +546,10 @@ width: 50%;
   body {
     width: 150%;
   }
+
+  .HowItWorks-div {
+    margin-top: -50px;
+    }
 
 }
 
