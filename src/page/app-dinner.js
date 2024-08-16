@@ -14,11 +14,11 @@ function AppDinner() {
 
       const apiKey = 'dfaf96e3f3364a92b133663b6ed837ff';
 
-      //making spoonacular api call to get a random recipe
+
       let resp = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}&type=dinner`);
       console.log(21, resp.data);
 
-      //store the random recipe into the recipe variable
+
       setRecipe(resp.data.recipes[0]);
     } catch (e) {
       console.log(e);

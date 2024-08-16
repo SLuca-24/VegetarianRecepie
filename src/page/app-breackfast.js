@@ -18,7 +18,7 @@ function AppBreakfast() {
       let resp = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}&type=breakfast`);
       console.log(21, resp.data);
 
-      //store the random recipe into the recipe variable
+
       setRecipe(resp.data.recipes[0]);
     } catch (e) {
       console.log(e);

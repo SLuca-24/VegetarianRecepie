@@ -19,6 +19,8 @@ function Header() {
         <h1>VegetarianRecepie.it</h1>
         </div>
 
+
+
         <div className="header-hamburger-menu">
         <div className="hamburger" onClick={toggleMenu}>☰</div>
         <nav className="mobile-menu">

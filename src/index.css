@@ -385,7 +385,7 @@ width: 50%;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9); /* Sfondo scuro trasparente */
+  background-color: rgba(0, 0, 0, 0.9); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,7 +424,7 @@ width: 50%;
 }
 
 .mobile-menu ul li a:hover {
-  color: #ddd; /* Cambia il colore al passaggio del mouse */
+  color: #ddd;
 }
 
 .hamburger-button {
