@@ -12,7 +12,7 @@ function AppBreakfast() {
   async function getRandomRecipe() {
     try {
 
-      const apiKey = 'dfaf96e3f3364a92b133663b6ed837ff';
+      const apiKey = process.env.REACT_APP_FOOT_API_KEY_PERSONAL;
 
       
       let resp = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}&type=breakfast`);
