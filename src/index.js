@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Header from  './page/header';
-import SignatureSection from  './page/signature-recepies';
+import './page/css/index.css';
+import Header from  './page/components/section1-header';
+import SignatureSection from  './page/components/section3-signature';
 import reportWebVitals from './reportWebVitals';
-import TypeOfRecepies from "./page/type-of-recepies"
-import AppLunch from "./page/app-lunch"
-import Contact from "./page/contact"
-import AppBreakfast from './page/app-breackfast';
-import AppDinner from './page/app-dinner'
-import HowItWorks from './page/how-it-work'
+import TypeOfRecepies from "./page/components/section4-typeOfRecepie"
+import Newsletter from "./page/components/section6-newsletter"
+import Apps from "./page/components/section5-app"
+import HowItWorks from './page/components/section2-how_it_work'
 
 
 
@@ -21,10 +19,8 @@ root.render(
     <HowItWorks />
     <SignatureSection />
     <TypeOfRecepies />
-    <AppBreakfast />
-    <AppLunch />
-    <AppDinner />
-    <Contact />
+    <Apps />
+    <Newsletter />
   </React.StrictMode>
 );
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Contact = () => {
+const Newsletter = () => {
     const [email, setEmail] = useState('');
 
     const handleSubmit = (event) => {
@@ -30,4 +30,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Newsletter;
